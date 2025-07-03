@@ -1,74 +1,7 @@
-/* Estilos básicos para o corpo da página */
+/* Estilos simplificados para o corpo da página */
 body {
-    font-family: 'Inter', sans-serif; /* Usando a fonte Inter */
-    background-color: #e0f7fa; /* Nova cor de fundo: um azul claro suave */
-    margin: 0;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh; /* Garante que o corpo ocupe toda a altura da viewport */
-    box-sizing: border-box; /* Inclui padding e borda no tamanho total do elemento */
-    color: #263238; /* Nova cor de texto: um cinza escuro para melhor contraste */
+    background-color: #e0f7fa; /* Cor de fundo: um azul claro suave */
+    color: red; /* Cor do texto: um cinza escuro */
 }
 
-/* Estilos para o contêiner principal */
-.container {
-    background-color: #ffffff; /* Fundo branco para o contêiner */
-    padding: 30px;
-    border-radius: 12px; /* Cantos arredondados */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    text-align: center;
-    max-width: 600px; /* Largura máxima para o contêiner */
-    width: 100%; /* Ocupa toda a largura disponível */
-    box-sizing: border-box;
-}
-
-/* Estilos para os títulos */
-h1 {
-    color: #00796b; /* Cor para o título: um verde-azulado escuro */
-    margin-bottom: 20px;
-    font-size: 2.2em; /* Tamanho maior para o título */
-}
-
-/* Estilos para os parágrafos */
-p {
-    color: #455a64; /* Cor para o texto do parágrafo: um cinza-azulado */
-    line-height: 1.6; /* Espaçamento entre linhas */
-    margin-bottom: 15px;
-}
-
-/* Estilos para os botões/links */
-.button {
-    display: inline-block; /* Permite definir padding e margem */
-    background-color: #007bff; /* Cor de fundo azul para o botão */
-    color: white; /* Texto branco */
-    padding: 12px 25px;
-    border-radius: 8px; /* Cantos arredondados para o botão */
-    text-decoration: none; /* Remove sublinhado do link */
-    font-weight: bold;
-    transition: background-color 0.3s ease, transform 0.2s ease; /* Transição suave */
-    margin-top: 20px;
-}
-
-/* Efeito hover para o botão */
-.button:hover {
-    background-color: #0056b3; /* Cor mais escura no hover */
-    transform: translateY(-2px); /* Pequeno movimento para cima no hover */
-}
-
-/* Responsividade básica para telas menores */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 1.8em; /* Ajusta o tamanho do título em telas menores */
-    }
-
-    .container {
-        padding: 20px; /* Reduz o padding do contêiner */
-    }
-
-    .button {
-        padding: 10px 20px; /* Reduz o padding do botão */
-    }
-}
 
